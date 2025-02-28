@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    margin: 10px;
+    width: 50px;
+    border-radius: 5px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+label{
+    margin-left: 10px;
+}
+
+#botao{
+    width: 200px;
+    height: 30px;
+    background-color: aqua;
+    margin-left: 150px ;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#botao:hover{
+    border-style: solid;
+    background-color: rgb(18, 235, 235);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+section{
+    background-color: white;
+    text-align: left;
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}

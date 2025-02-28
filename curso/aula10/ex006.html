@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos DOM</title>
+    <link rel="shortcut icon" href="cursoemvideo.jpg" type="image/x-icon">
+    <style>
+        #area{
+            font: normal 30px Arial;
+            background-color: rgb(127, 255, 155);
+            color: white;
+            width: 300px;
+            height: 300px;
+            line-height: 300px;
+            text-align: center;
+            margin: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="area">
+        <h1>Interaja...</h1>
+    </div>
+
+    <script>
+        var a = window.document.getElementById('area')
+        a.addEventListener('click', clicar)
+        a.addEventListener('mouseenter', entrar)
+        a.addEventListener('mouseout', sair)
+
+        function clicar(){
+            a.innerText = 'Clicou'
+            a.style.background = 'red'
+        }
+
+        function entrar(){
+            a.innerText = 'Entrou'
+            a.style.background = 'green'
+        }
+
+        function sair(){
+            a.innerText = 'Saiu'
+            a.style.background = 'black'
+        }
+        
+    </script>
+</body>
+</html>

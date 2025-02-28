@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <style>
+        body{
+            font:normal 14pt Arial;
+        }
+        input{
+            color: cornflowerblue;
+        }
+        
+        #textn1{
+            border-radius: 5px;
+            border-color: greenyellow;
+            font-size: 20px;
+            width: 100px;
+        }
+        #textn2{
+            border-radius: 5px;
+            border-color: greenyellow;
+            font-size: 20px;
+            width: 100px;
+        }
+        h1{
+            color:green;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+
+    <input type="number" name="textn1" id="textn1"> +
+    
+    <input type="number" name="textn2" id="textn2">
+    
+    <input type="button" value="RESULTADO" onclick="clicar()">
+    <h1 id="h1">...</h1>
+
+    <script>
+        function clicar(){
+            var a = window.document.getElementById('h1')
+            var tn1 = window.document.getElementById('textn1')
+            var tn2 = window.document.getElementById('textn2')
+            var n1 = Number.parseInt(tn1.value)
+            var n2 = Number.parseInt(tn2.value)
+            a.innerHTML = `A soma de ${n1} e ${n2} é igual a <strong>${String(n1 + n2)}</strong>`
+        }
+    </script>
+</body>
+</htm

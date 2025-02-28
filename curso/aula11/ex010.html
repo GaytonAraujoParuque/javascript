@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAC</title>
+</head>
+<body>
+    <h1>Sistema de multas</h1>
+    velocidade do carro: <input type="number" name="textvel" id="textvel">
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="antes">
+
+    </div>
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular(){
+            vel = window.document.getElementById('textvel')
+            vel = Number(vel.value)
+            res = window.document.getElementById('res')
+            antes = window.document.getElementById('antes')
+            antes.innerHTML = `A sua velocidade atual é de <strong>${vel}</strong>`
+            if (vel > 60){
+                res.innerHTML = 'Você foi multado'
+            }else{
+                res.innerHTML = 'Dirija sempre com cinto de segurança'
+            }
+        }
+    </script>
+</html>
