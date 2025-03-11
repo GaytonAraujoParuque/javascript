@@ -5,8 +5,11 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
+#inc{
+    margin-top: 10px;
+}
+
 input{
-    margin: 10px;
     width: 50px;
     border-radius: 5px;
 }
@@ -20,18 +23,16 @@ label{
 }
 
 #botao{
-    width: 200px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
     background-color: aqua;
-    margin-left: 150px ;
+    margin-left: 205px ;
     border-color: white;
-    border-radius: 10px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.13);
 }
 
-#botao:hover{
-    border-style: solid;
-    background-color: rgb(18, 235, 235);
-}
+
 
 header{
     text-align: center;
@@ -50,4 +51,12 @@ section{
     width: 500px;
     margin: auto;
     border-radius: 10px;
+    border-color: black;
+    min-height: 200px;
+    box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.493);
+}
+
+section > #res{
+    margin-left: 10px;
+    max-width: 50px;
 }
