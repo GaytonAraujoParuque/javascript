@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(75, 124, 122);
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+}
+
+section{
+    margin: auto;
+    width: 400px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.418);
+}
+
+div{
+    padding: 10px;
+}
+
+#adicionar{
+    margin-left: 70px;
+}
+
+#par{
+    padding: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+
+}
+
+select{
+    color: white;
+    width: 200px;
+    height: 150px;
+    background-color: rgb(143, 175, 165);
+}

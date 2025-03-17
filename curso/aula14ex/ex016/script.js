@@ -14,10 +14,10 @@ function contar(){
     }else{
         alert(`inicio = ${inicio} fim = ${fim.length} passo = ${passo.length}`)
     }*/
-    res.innerHTML = 'Contando... <br>'
+    res.innerHTML = 'Contando... '
     if (inicio > fim){
         for (var c = inicio; c >=fim; c -= passo){
-            res.innerText += `${c} `
+            res.innerHTML += `${c} `
         }
     }else{
         for (c = inicio; c <= fim; c += passo){

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body{
+    background-color: #6565c2;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.26);
+}
+
+section > div{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+select{
+    width: 150px;
+    border-radius: 10px;
+    border-color: #6565c2;
+}
+
+footer{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
